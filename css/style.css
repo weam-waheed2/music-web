@@ -1,0 +1,341 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Glory', sans-serif;
+}
+
+
+
+
+/* btn up */
+/*/////////////////////////////////////////////////////////////////////////////////////*/
+.button-up{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-size: 50px;
+    padding-right: 20px;
+	z-index: 9;
+}
+a.btn-up{
+    color: rgb(95, 95, 95);
+    font-size: 40px;
+}
+a.btn-up{
+    color: linear-gradient(15deg, #ce5c9f 0%, #c6cfce 50%);
+    opacity: 0.6;
+}
+a.btn-up:hover{
+    color: linear-gradient(15deg, #ce5c9f 0%, #c6cfce 50%);
+    opacity: 0.7;
+    transition: 0.8s;
+}
+/* end btn up */
+/*/////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+/* navbar */
+/*/////////////////////////////////////////////////////////////////////////////////////*/
+.navbar {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    letter-spacing: 3px;
+}
+
+.nav a {
+    font-size: 20px;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.navbar-brand span {
+    background-color: white;
+    color: black;
+    padding: 5px 8px;
+}
+/* end navbar */
+/*/////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+/* header */
+/*/////////////////////////////////////////////////////////////////////////////////////*/
+.bg {
+    background-image: url(../img/bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.rgba {
+    background: rgba(0, 0, 0, 0.6);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.text-header {
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+.text-one {
+    color: rgb(179, 179, 179);
+}
+
+.text-two {
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+}
+/* end header */
+/*/////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+/* sec1 */
+/*/////////////////////////////////////////////////////////////////////////////////////*/
+.icon {
+    background-color: #ce5c9f;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    font-size: 30px;
+    color: white;
+    margin: auto;
+}
+
+.text-home1 {
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.text-home2,
+.text-about,
+.text-work,
+.text-blog {
+    color: rgb(134, 134, 134);
+    font-size: 17px;
+    font-weight: 500;
+}
+/* end sec1 */
+/*/////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+/* sec2 */
+/*/////////////////////////////////////////////////////////////////////////////////////*/
+.img-about {
+    transition: 1.3s;
+}
+
+.img-about:hover {
+    transform: matrix(1.1);
+    opacity: 0.8;
+}
+
+.sec2,
+.sec5 {
+    background-color: #f8f8f8;
+    background-size: cover;
+}
+/* end sec2 */
+/*/////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+/* sec3 */
+/*/////////////////////////////////////////////////////////////////////////////////////*/
+.sec3 {
+    background-image: url(../img/two.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+.rgba3 {
+    background: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-position: center;
+}
+
+.text-event {
+    color: rgb(207, 206, 206);
+    font-size: 17px;
+    font-weight: 500;
+    text-shadow: 1px 1px 9px black;
+}
+
+.text-event1 {
+    text-shadow: 2px 1px 7px black;
+}
+
+.icon-event {
+    text-shadow: 2px 1px 7px black;
+    font-size: 20px;
+}
+/* end sec3 */
+/*/////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+/* sec4 */
+/*/////////////////////////////////////////////////////////////////////////////////////*/
+.icon-work .img {
+    overflow: hidden;
+}
+
+.icon-work img {
+    backface-visibility: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+.icon-work:hover img {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
+/* end sec4 */
+/*/////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+/* sec5 */
+/*/////////////////////////////////////////////////////////////////////////////////////*/
+.card{
+    border: none;
+    box-shadow: 1px 1px 4px rgba(175, 175, 175, 0.733);
+}
+.card-link{
+    color: rgb(114, 114, 114);
+}
+.card-link:hover{
+    color: rgb(59, 59, 59);
+    transition: all 0.9s;
+}
+/* end sec5 */
+/*/////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+/* sec6 */
+/*/////////////////////////////////////////////////////////////////////////////////////*/
+.sec6 {
+    background: url(../img/three.jpg);
+    background-size: cover;
+}
+.sec6 a{
+    color: rgb(136, 136, 136);
+}
+.sec6 a:hover{
+    color: rgb(160, 160, 160);
+    transition: all 0.9s;
+}
+#contact h5 {
+    color: white;
+    padding-bottom: 15px;
+    text-transform: capitalize;
+}
+#contact p {
+    color: rgb(136, 136, 136);
+}
+.arrow {
+    font-size: 12px;
+}
+/* end sec6 */
+/*/////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+/* footer */
+/*/////////////////////////////////////////////////////////////////////////////////////*/
+.footer {
+    background-color: #151515;
+    background-size: cover;
+    color: white;
+}
+
+.text-footer {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.text-footer1 {
+    background-color: white;
+    padding: 5px 8px;
+    color: black;
+}
+
+.text-footer2 {
+    color: rgb(151, 151, 151);
+    letter-spacing: 1.3px;
+}
+
+.icon-footer a i {
+    background-color: #ce5c9f;
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+    font-size: 18px;
+    color: white;
+    margin: auto;
+    transition: all 0.9s;
+}
+.icon-footer a i:hover{
+    background-color: #6e686cc0;
+}
+/* end footer */
+/*/////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+/* media query */
+/*/////////////////////////////////////////////////////////////////////////////////////*/
+@media only screen and (max-width:768px) {
+
+
+    /* header */
+    /* ////////////////////////////////////////// */
+    .text-header {
+        font-size: 16px;
+    }
+    .text-two {
+        font-size: 33px;
+    }
+    .btn-header{
+        display: none;
+    }
+    /* end header */
+    /* ////////////////////////////////////////// */
+
+
+
+}
+/* end media query */
+/*/////////////////////////////////////////////////////////////////////////////////////*/
