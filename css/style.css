@@ -166,7 +166,7 @@ a.btn-up:hover{
 /* sec3 */
 /*/////////////////////////////////////////////////////////////////////////////////////*/
 .sec3 {
-    background-image: url(img/two.jpg);
+    background-image: url(../img/two.jpg);
     background-attachment: fixed;
     background-size: cover;
     color: white;
@@ -242,7 +242,7 @@ a.btn-up:hover{
 /* sec6 */
 /*/////////////////////////////////////////////////////////////////////////////////////*/
 .sec6 {
-    background: url(img/three.jpg);
+    background: url(../img/three.jpg);
     background-size: cover;
 }
 .sec6 a{
